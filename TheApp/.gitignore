@@ -1,0 +1,8 @@
+*.pyc
+*.pyo
+*.so
+.svn
+target/
+.class/
+._*
+.idea

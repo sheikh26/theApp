@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<!-- All Models class must be define here -->
+<hibernate-configuration>
+	<session-factory>
+		<mapping class="com.galaxy.theapp.model.AppUserTask" />
+		<mapping class="com.galaxy.theapp.model.AppUser" />
+		<mapping class="com.galaxy.theapp.model.OpenFireUser" />
+		<mapping class="com.galaxy.theapp.model.AppUserTaskInvite" />
+		<mapping class="com.galaxy.theapp.model.AppError" />
+		<mapping class="com.galaxy.theapp.model.AppUserTaskSharing" />
+	    <mapping class="com.galaxy.theapp.model.AppUserTaskAssign" />
+	    <mapping class="com.galaxy.theapp.model.AppUserToken" />
+	    <mapping class="com.galaxy.theapp.model.InAppPurchase" />
+	    <mapping class="com.galaxy.theapp.model.AppUserCoinBalance" />
+	    <mapping class="com.galaxy.theapp.model.AppUserCoinTransaction" />
+	    <mapping class="com.galaxy.theapp.model.AppUserForgetPasswordOtp" />
+	</session-factory>
+</hibernate-configuration>
